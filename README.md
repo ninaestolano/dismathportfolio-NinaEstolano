@@ -5,7 +5,7 @@ Niña Francesca Estolano
 <li>We were not able to meet due to holidays and discrepancies in the schedule.</li></ul>
 <h1>Week 2</h1>
 <li>In our first meeting, the professor discussed the syllabus.</li>
-</li>We also had our first lesson on logic.</li>
+<li>We also had our first lesson on logic.</li>
 <li>We learned that propositional logic is the simplest logic and it is made of propositions, which can be true or false.</li>
 <li>We studied the following logical connectives (or boolean connectives):</li>
 <table style="width:100%">
