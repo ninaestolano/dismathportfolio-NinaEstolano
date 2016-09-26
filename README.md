@@ -16,11 +16,6 @@ Niña Francesca Estolano
     <th>Description</th>
   </tr>
   <tr>
-    <td>¬</td>
-    <td>Negation</td> 
-    <td>It has the opposite truth value of the propositional variable.</td>
-  </tr>
-  <tr>
     <td>˄</td>
     <td>Conjunction</td> 
     <td>It is only true if both propositions are true, false if otherwise.</td>
@@ -29,6 +24,11 @@ Niña Francesca Estolano
     <td>˅</td>
     <td>Disjunction</td> 
     <td>It is false if both propositions are false, true if otherwise.</td>
+  </tr>
+  <tr>
+    <td>¬</td>
+    <td>Negation</td> 
+    <td>It has the opposite truth value of the propositional variable.</td>
   </tr>
   <tr>
     <td>⊕</td>
@@ -166,6 +166,89 @@ Niña Francesca Estolano
    <tr>
     <td>F</td>
     <td>F</td>
+    <td>T</td> 
+  </tr>
+</table>
+<li>In an implication, the first part of the proposition is the antecedent and the second part is called the consequent.
+<li>The implication <i>p</i>→<i>q</i> has a converse of <i>q</i>→<i>p</i>, an inverse of <i>¬p</i>→<i>¬q</i>, and a contrapositive of<i>¬q</i>→<i>¬p</i>.</li>
+<table style="width:100%">
+  <tr>
+    <th><i>p</i></th>
+    <th><i>q</i></th>
+    <th><i>p</i>→<i>q</i></th>
+    <th>(Converse)<i>q</i>→<i>p</i></th>
+    <th>(Inverse)<i>¬p</i>→<i>¬q</i></th>
+    <th>(Contrapositive)<i>¬q</i>→<i>¬p</i></th>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>T</td> 
+    <td>T</td> 
+    <td>T</td> 
+    <td>T</td> 
+    <td>T</td> 
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td> 
+    <td>T</td> 
+    <td>T</td> 
+    <td>F</td> 
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>T</td>
+    <td>T</td> 
+    <td>F</td>
+    <td>F</td>
+    <td>T</td> 
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td> 
+    <td>T</td> 
+    <td>T</td> 
+    <td>T</td> 
+  </tr>
+</table>
+<li>We had to construct a truth table for this formula: (<i>p</i>∧<i>q</i>)∨(¬<i>p</i>∧¬<i>q</i>)</li>
+<li>My answer was:</li>
+<table style="width:100%">
+  <tr>
+    <th><i>p</i></th>
+    <th><i>q</i></th>
+    <th><i>p</i>∧<i>q</i></th>
+    <th>¬<i>p</i>∧¬<i>q</i></th>
+    <th>(<i>p</i>∧<i>q</i>) ∨ (¬<i>p</i>∧¬<i>q</i>)</th>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>T</td> 
+    <td>T</td> 
+    <td>F</td> 
+    <td>T</td> 
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td> 
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td> 
+    <td>F</td> 
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td> 
     <td>T</td> 
   </tr>
 </table>
