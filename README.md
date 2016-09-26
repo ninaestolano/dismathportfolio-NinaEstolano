@@ -46,7 +46,7 @@ Niña Francesca Estolano
 <table style="width:100%">
   <tr>
     <th><i>p</i></th>
-    <th><i>¬p</i></th> 
+    <th>¬<i>p</i></th> 
   </tr>
   <tr>
     <td>T</td>
@@ -62,7 +62,7 @@ Niña Francesca Estolano
   <tr>
     <th><i>p</i></th>
     <th><i>q</i></th>
-    <th><i>p˄q</i></th>
+    <th><i>p</i>˄<i>q</i></th>
   </tr>
   <tr>
     <td>T</td>
@@ -90,7 +90,7 @@ Niña Francesca Estolano
   <tr>
     <th><i>p</i></th>
     <th><i>q</i></th>
-    <th><i>p˅q</i></th>
+    <th><i>p</i>˅<i>q</i></th>
   </tr>
   <tr>
     <td>T</td>
@@ -118,7 +118,7 @@ Niña Francesca Estolano
   <tr>
     <th><i>p</i></th>
     <th><i>q</i></th>
-    <th><i>p⊕q</i></th>
+    <th><i>p</i>⊕<i>q</i></th>
   </tr>
   <tr>
     <td>T</td>
@@ -146,7 +146,7 @@ Niña Francesca Estolano
   <tr>
     <th><i>p</i></th>
     <th><i>q</i></th>
-    <th><i>p→q</i></th>
+    <th><i>p</i>→<i>q</i></th>
   </tr>
   <tr>
     <td>T</td>
