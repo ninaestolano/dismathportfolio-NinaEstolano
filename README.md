@@ -221,7 +221,7 @@ Niña Francesca Estolano
     <th><i>q</i></th>
     <th><i>p</i>∧<i>q</i></th>
     <th>¬<i>p</i>∧¬<i>q</i></th>
-    <th>(<i>p</i>∧<i>q</i>) ∨ (¬<i>p</i>∧¬<i>q</i>)</th>
+    <th>(<i>p</i>∧<i>q</i>)∨(¬<i>p</i>∧¬<i>q</i>)</th>
   </tr>
   <tr>
     <td>T</td>
@@ -250,6 +250,125 @@ Niña Francesca Estolano
     <td>F</td>
     <td>T</td> 
     <td>T</td> 
+  </tr>
+</table>
+</ul>
+<h1>Week 3</h1>
+<ul type="disc">
+<li>We discussed the last logical connective which is biconditional(↔)("if and only if").</li>
+<li>It is true if both propositions have the same truth value, false if otherwise.</li>
+<li>Truth table for Biconditional:</li>
+<table style="width:100%">
+  <tr>
+    <th><i>p</i></th>
+    <th><i>q</i></th>
+    <th><i>p</i>↔<i>q</i></th>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>T</td> 
+    <td>T</td> 
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td> 
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td> 
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td> 
+  </tr>
+</table>
+<li>We also learned about the operator precedence.</li>
+<li>Negation has the highest precedence while biconditional is the lowest (¬, ˄, ˅, →, ↔).</li>
+<li>We had to choose the correct order for this formula: p _ q ^ r $ q ! ¬r then construct its truth table.</li>
+<table style="width:100%">
+  <tr>
+    <th><i>p</i></th>
+    <th><i>q</i></th>
+    <th><i>r</i></th>
+    <th><i>q</i>∧<i>r</i></th>
+    <th><i>p</i>∨(<i>q</i>∧<i>r</i>)</th>
+    <th><i>q</i>→<i>¬r</i></th>
+    <th>(<i>p</i>∨(<i>q</i>∧<i>r</i>))↔(<i>q</i>→<i>¬r</i>)</th>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>T</td> 
+    <td>T</td> 
+    <td>T</td> 
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>T</td>
+    <td>T</td>
+  </tr>
+   <tr>
+    <td>T</td>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td> 
+    <td>T</td>
+    <td>T</td>
+    <td>T</td>
+  </tr>
+   <tr>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td> 
+    <td>T</td>
+    <td>T</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>T</td>
+    <td>T</td>
+    <td>T</td> 
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td> 
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td> 
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
   </tr>
 </table>
 </ul>
