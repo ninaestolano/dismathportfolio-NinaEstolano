@@ -287,7 +287,8 @@ Niña Francesca Estolano
 </table>
 <li>We also learned about the operator precedence.</li>
 <li>Negation has the highest precedence while biconditional is the lowest (¬, ˄, ˅, →, ↔).</li>
-<li>We had to choose the correct order for this formula: p _ q ^ r $ q ! ¬r then construct its truth table.</li>
+<li>We had to choose the correct order for this formula: <i>p</i>˅<i>q</i>˄<i>r</i>↔<i>q</i>→¬<i>r</i> then construct its truth table.</li>
+<li>This was my answer:</li>
 <table style="width:100%">
   <tr>
     <th><i>p</i></th>
