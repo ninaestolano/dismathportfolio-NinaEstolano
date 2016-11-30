@@ -399,17 +399,17 @@ Niña Francesca Estolano
   </tr>
   <tr>
     <td><i>p</i> ∧ T ≡ <i>p</i>
-    <br><i>p</i> ∨ F ≡ <i>p</i></br></td>
+    <br><i>p</i> ∨ F ≡ <i>p</i><br/></td>
     <td>Identity Laws</td>  
   </tr>
   <tr>
     <td><i>p</i> ∨ T ≡ T
-    <br><i>p</i> ∧ F ≡ F</br></td>
+    <br><i>p</i> ∧ F ≡ F<br/></td>
     <td>Domination Laws</td>
   </tr>
    <tr>
     <td><i>p</i> ∨ <i>p</i> ≡ <i>p</i>
-    <br><i>p</i> ∧ <i>p</i> ≡ <i>p</i></br></td>
+    <br><i>p</i> ∧ <i>p</i> ≡ <i>p</i><br/></td>
     <td>Idempotent Laws</td>
   </tr>
    <tr>
@@ -418,7 +418,7 @@ Niña Francesca Estolano
   </tr>
   <tr>
     <td><i>p</i> ∨ <i>q</i> ≡ <i>q</i> ∨ <i>p</i>
-    <br><i>p</i> ∧ <i>q</i> ≡ <i>q</i> ∧ <i>p</i></br></td>
+    <br><i>p</i> ∧ <i>q</i> ≡ <i>q</i> ∧ <i>p</i><br/></td>
     <td>Commutative Laws</td>
   </tr>
   <tr>
@@ -433,17 +433,17 @@ Niña Francesca Estolano
   </tr>
    <tr>
     <td>¬(<i>p</i> ∧ <i>q</i>) ≡ ¬<i>p</i> ∨ ¬<i>q</i>
-    <br>¬(<i>p</i> ∨ <i>q</i>) ≡ ¬<i>p</i> ∧ ¬<i>q</i></br></td>
+    <br>¬(<i>p</i> ∨ <i>q</i>) ≡ ¬<i>p</i> ∧ ¬<i>q</i><br/></td>
     <td>De Morgan's Laws</td>
   </tr>
   <tr>
     <td><i>p</i> ∨ (<i>p</i> ∧ <i>q</i>) ≡ <i>p</i>
-    <br><i>p</i> ∧ (<i>p</i> ∨ <i>q</i>) ≡ <i>p</i></br></td>
+    <br><i>p</i> ∧ (<i>p</i> ∨ <i>q</i>) ≡ <i>p</i><br/></td>
     <td>Absorption Laws</td>
   </tr>
   <tr>
     <td><i>p</i> ∨ ¬<i>p</i> ≡ T
-    <br><i>p</i> ∧ ¬<i>p</i> ≡ F</br></td>
+    <br><i>p</i> ∧ ¬<i>p</i> ≡ F<br/></td>
     <td>Negation Laws</td>
   </tr>
 </table>
@@ -597,7 +597,58 @@ Niña Francesca Estolano
   <li>Every freshman is taking CS311 ≡ ∀x.(freshman(x) → inCS311(x))</li>
  </ul>
 </ul>
+<h1>Week 6</h1>
+<ul type="disc">
+<li>We discussed proof rules.</li>
+<li>Proof rules are written as rules of inference:</li>
+ <ul>
+ <li>Hypothesis 1<br>Hypothesis 2<br/><br>...<br/><hr>jkj<hr/><br>Conclusion<br/></li>
+ </ul>
+<li><table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Rule of Inference</th>
+  </tr>
+  <tr>
+    <td>Modus Ponens</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Modus Tollens</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Hypothetical Syllogism</td>
+    <td></td>
+  </tr>
+   <tr>
+   <td>Or Introduction</td>
+   <td></td>
+  </tr>
+  <tr>
+    <td>Or Elimination</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>And Introduction</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>And Elimination</td>
+    <td></td>
+  </tr>
+   <tr>
+    <td>Resolution</td>
+    <td></td>
+  </tr>
+</table>
+</li>
 
+</ul>
+<h1>Week 7</h1>
+<ul type="disc">
+<li>We discussed functions.</li>
+</ul>
 <h1>Week 8</h1>
 <ul type="disc">
 <li>We did not meet due to holidays.</li>
