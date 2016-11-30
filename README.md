@@ -613,42 +613,42 @@ Niña Francesca Estolano
   <tr>
     <td>Modus Ponens</td>
     <td><p><i>Φ</i><sub>1</sub></p><p><i>Φ</i><sub>1</sub> → <i>Φ</i><sub>2</sub></p>
-    <hr noshade width="100%"><p>∴ <i>Φ</i><sub>2</sub></p></td>
+    <hr noshade width="60%"><p>∴ <i>Φ</i><sub>2</sub></p></td>
   </tr>
   <tr>
     <td>Modus Tollens</td>
     <td><p><i>Φ</i><sub>1</sub> → <i>Φ</i><sub>2</sub></p><p>¬<i>Φ</i><sub>2</sub></p>
-    <hr noshade width="50%"><p>∴ ¬<i>Φ</i><sub>1</sub></p></td>
+    <hr noshade width="60%"><p>∴ ¬<i>Φ</i><sub>1</sub></p></td>
   </tr>
    <tr>
     <td>Hypothetical Syllogism</td>
     <td><p><i>Φ</i><sub>1</sub> → <i>Φ</i><sub>2</sub></p><p><i>Φ</i><sub>2</sub> → <i>Φ</i><sub>3</sub></p>
-    <hr noshade width="30%"><p>∴ <i>Φ</i><sub>1</sub> → <i>Φ</i><sub>3</sub></p></td>
+    <hr noshade width="60%"><p>∴ <i>Φ</i><sub>1</sub> → <i>Φ</i><sub>3</sub></p></td>
   </tr>
    <tr>
    <td>Or Introduction</td>
    <td><p><i>Φ</i><sub>1</sub></p>
-   <hr noshade width="15%"><p>∴ <i>Φ</i><sub>1</sub> ∨ <i>Φ</i><sub>2</sub></p></td>
+   <hr noshade width="60%"><p>∴ <i>Φ</i><sub>1</sub> ∨ <i>Φ</i><sub>2</sub></p></td>
   </tr>
   <tr>
     <td>Or Elimination</td>
     <td><p><i>Φ</i><sub>1</sub> ∨ <i>Φ</i><sub>2</sub></p><p>¬<i>Φ</i><sub>2</sub></p>
-    <hr noshade width="15%"><p>∴ <i>Φ</i><sub>1</sub></p></td>
+    <hr noshade width="60%"><p>∴ <i>Φ</i><sub>1</sub></p></td>
   </tr>
   <tr>
     <td>And Introduction</td>
     <td><p><i>Φ</i><sub>1</sub></p><p><i>Φ</i><sub>2</sub></p>
-    <hr noshade width="15%"><p>∴ <i>Φ</i><sub>1</sub> ∧ <i>Φ</i><sub>2</sub></p></td>
+    <hr noshade width="60%"><p>∴ <i>Φ</i><sub>1</sub> ∧ <i>Φ</i><sub>2</sub></p></td>
   </tr>
    <tr>
     <td>And Elimination</td>
     <td><p><i>Φ</i><sub>1</sub> ∧ <i>Φ</i><sub>2</sub></p>
-    <hr noshade width="15%"><p>∴ <i>Φ</i><sub>1</sub></p></td>
+    <hr noshade width="60%"><p>∴ <i>Φ</i><sub>1</sub></p></td>
   </tr>
    <tr>
     <td>Resolution</td>
     <td><p><i>Φ</i><sub>1</sub> ∨ <i>Φ</i><sub>2</sub></p><p>¬<i>Φ</i><sub>1</sub> ∨ <i>Φ</i><sub>3</sub></p>
-    <hr noshade width="15%"><p>∴ <i>Φ</i><sub>2</sub> ∨ <i>Φ</i><sub>3</sub></p></td>
+    <hr noshade width="60%"><p>∴ <i>Φ</i><sub>2</sub> ∨ <i>Φ</i><sub>3</sub></p></td>
   </tr>
 </table>
 </li>
