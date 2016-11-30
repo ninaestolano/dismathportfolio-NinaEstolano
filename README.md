@@ -389,8 +389,84 @@ Niña Francesca Estolano
 </ul>
 <h1>Week 4</h1>
 <ul type="disc">
-<li>We learned how to prove a tautology using a truth table and proof by logical equivalences</li>
-<li></li>
+<li>We learned how to prove a tautology using a truth table and proof by logical equivalences.</li>
+<li>These are the logical equivalences:</li>
+<table style="width:100%">
+  <tr>
+    <th>Equivalence</th>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <td><i>p</i> ∧ T ≡ <i>p</i>
+    <i>p</i> ∨ F ≡ <i>p</i></td>
+    <td>Identity laws</td> 
+    
+  </tr>
+  <tr>
+    <td>T</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>T</td>
+    <td>T</td>
+  </tr>
+   <tr>
+    <td>T</td>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td> 
+    <td>T</td>
+    <td>T</td>
+    <td>T</td>
+  </tr>
+   <tr>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td> 
+    <td>T</td>
+    <td>T</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>T</td>
+    <td>T</td>
+    <td>T</td> 
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>F</td>
+    <td>T</td>
+    <td>F</td> 
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+  </tr>
+   <tr>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>
+    <td>F</td> 
+    <td>F</td>
+    <td>T</td>
+    <td>F</td>
+  </tr>
+</table>
+<li>Example</li>
 <li></li>
 <li></li>
 <li></li>
