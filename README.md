@@ -652,7 +652,132 @@ Niña Francesca Estolano
   </tr>
 </table>
 </li>
-
+<li>Assume the following hypotheses:</li>
+ <ul>
+  <li>1. It is not raining or Kate has her umbrella ≡ ¬r ∨ u</li>
+  <li>2. Kate does not have her umbrella or she does not get wet ≡ ¬u ∨ ¬w</li>
+  <li>3. It is raining or Kate does not get wet ≡ r ∨ ¬w</li>
+  <li>4. Kate is grumpy only if she is wet ≡ g → w</li>
+  <li>Show these lead to the conclusion: "Kate is not grumpy" ≡ ¬g</li>
+ </ul>
+<li>Let:</li>
+  <ul>
+   <li>r = "It is raining"</li>
+   <li>u= "Kate has her umbrella"</li>
+   <li>w = "Kate is wet"</li>
+   <li>g = "Kate is grumpy"</li>
+  </ul>
+<li>I answered:</li>
+ <ul>
+  <li>Resolution:</li>
+    <ul>
+      <li><p>¬r ∨ u</p><p>¬u ∨ ¬w</p>
+      <hr noshade width="15%"><p>∴ ¬r ∨ ¬w</p></li>
+    </ul>
+  <li>Resolution:</li>
+    <ul>
+      <li><p>¬r ∨ ¬w</p><p>r ∨ ¬w</p>
+      <hr noshade width="15%"><p>∴ ¬w ∨ ¬w</p></li>
+    </ul>
+  <li>by idempotent: ¬w</li>
+  <li>Resolution:</li>
+    <ul>
+      <li><p>¬w</p><p>g → w</p>
+      <hr noshade width="15%"><p>∴ ¬g</p></li>
+    </ul>
+  <li>∴ Valid</li>
+ </ul>
+<li>We studied mathematical proof techniques.</li>
+<li>Direct Proof:</li>
+  <ul>
+   <li>"If n is an even integer, then n<sup>2</sup> is even."</li>
+   <li>Assume <i>p</i> is true.</li>
+    <ul>
+    <li>n ϵ even, n=2k, k ϵ Z</li>
+    </ul>
+   <li>Show <i>q</i> must also be true.</li>
+    <ul>
+     <li>(n = 2k)<sup>2</sup></li>
+     <li>n<sup>2</sup> = 4k<sup>2</sup></li>
+     <li>n<sup>2</sup> = 2·2k<sup>2</sup></li>
+     <li>let: a=2k<sup>2</sup>, a ϵ Z</li>
+     <li>n<sup>2</sup> = 2a</li>
+     <li>by definition: n<sup>2</sup> is even</li>
+     <li>∴ PROVEN</li>
+    </ul>
+  </ul>
+<li>Proof by Contraposition:</li>
+ <ul>
+   <li>"If n<sup>2</sup> is even, then n is even."</li>
+   <li>Assume ¬<i>q</i> is true.</li>
+    <ul>
+    <li>n ϵ odd, n=2k+1, k ϵ Z</li>
+    </ul>
+   <li>Show ¬<i>p</i> must also be true.</li>
+    <ul>
+     <li>(n = 2k+1)<sup>2</sup></li>
+     <li>n<sup>2</sup> = 4k<sup>2</sup>+4k+1</li>
+     <li>n<sup>2</sup> = 2·(2k<sup>2</sup>+2k)+1</li>
+     <li>let: a=2k<sup>2</sup>+2k, a ϵ Z</li>
+     <li>n<sup>2</sup> = 2a+1</li>
+     <li>by definition: n<sup>2</sup> is odd</li>
+     <li>∴ PROVEN</li>
+     <li>∴ The original theorem is also true.</li>
+  </ul>
+<li>Proof by Contradiction:</li>
+ <ul>
+   <li>"If 3n+2 is odd, then n is odd."</li>
+   <li>Negate the whole statement.</li>
+    <ul>
+    <li>¬(<i>p</i> → <i>q</i>) ≡ ¬(¬<i>p</i> ∨ <i>q</i>) ≡ <i>p</i> ∧ ¬<i>q</i></li>
+    <li>Assume <i>p</i> ≡ T and ¬<i>q</i> ≡ T</li>
+    <li>"3n+2 is odd" and "n is even"</li>
+    </ul>
+   <li>Show that a contradiction exists.</li>
+    <ul>
+     <li>n=2d, d ϵ Z</li>
+     <li>3n+2 = 3(2d)+2</li>
+     <li>3n+2 = 6d+2</li>
+     <li>3n+2 = 2(3d+1)</li>
+     <li>let: b=3d+1, b ϵ Z</li>
+     <li>3n+2 = 2b</li>
+     <li>∴ EVEN≠ODD</li>
+     <li>There is a contradiction.</li>
+    </ul>
+  </ul>
+<li>Proof by Cases:</li>
+ <ul>
+   <li>Prove |xy| = |x| |y|</li>
+   <li>Case 1:</li>
+    <ul>
+     <li>x=+, y=+</li>
+     <li>|(+x·+y)| = |+x| |+y|</li>
+     <li>|xy| = xy</li>
+     <li>xy = xy</li>
+    </ul>
+   <li>Case 2:</li>
+    <ul>
+     <li>x=+, y=-</li>
+     <li>|(+x·-y)| = |+x| |-y|</li>
+     <li>|-xy| = xy</li>
+     <li>xy = xy</li>
+    </ul>
+   <li>Case 3:</li>
+    <ul>
+     <li>x=-, y=+</li>
+     <li>|(-x·+y)| = |-x| |+y|</li>
+     <li>|-xy| = xy</li>
+     <li>xy = xy</li>
+    </ul>
+   <li>Case 4:</li>
+    <ul>
+     <li>x=-, y=-</li>
+     <li>|(-x·-y)| = |-x| |-y|</li>
+     <li>|xy| = xy</li>
+     <li>xy = xy</li>
+    </ul>
+   <li>∴ PROVEN</li>
+  </ul>
 </ul>
 <h1>Week 7</h1>
 <ul type="disc">
