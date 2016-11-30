@@ -602,7 +602,8 @@ Niña Francesca Estolano
 <li>We discussed proof rules.</li>
 <li>Proof rules are written as rules of inference:</li>
  <ul>
- <li>Hypothesis 1<br>Hypothesis 2<br/><br>...<br/><hr>jkj<hr/><br>Conclusion<br/></li>
+ <li><center>Hypothesis 1</center><br><center>Hypothesis 2</center><br/>
+ <br><center>...</center><br/><hr color="black" width="20%"><hr/><br>Conclusion<br/></li>
  </ul>
 <li><table style="width:100%">
   <tr>
