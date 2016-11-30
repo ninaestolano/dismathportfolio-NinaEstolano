@@ -603,7 +603,7 @@ Niña Francesca Estolano
 <li>Proof rules are written as rules of inference:</li>
  <ul>
  <li><p>Hypothesis 1</p><p>Hypothesis 2</p>
- <hr noshade width="20%"><p>∴ Conclusion</p></li>
+ <hr noshade width="15%"><p>∴ Conclusion</p></li>
  </ul>
 <li><table style="width:100%">
   <tr>
