@@ -389,6 +389,7 @@ Niña Francesca Estolano
 </ul>
 <h1>Week 4</h1>
 <ul type="disc">
+<li>We learned that a counter-example is enough to prove something is wrong.</li>
 <li>We learned how to prove a tautology using a truth table and proof by logical equivalences.</li>
 <li>These are the logical equivalences:</li>
 <li><table style="width:100%">
@@ -450,6 +451,12 @@ Niña Francesca Estolano
 <li>Example:</li>
   <ul>
   <li>(<i>p</i> ∧ <i>q</i>) ∨ ¬<i>p</i></li>
+  <li>Proof by Logical Equivalences:</li>
+  <li>by commutative: ¬<i>p</i> ∨ (<i>p</i> ∧ <i>q</i>)</li>
+  <li>by distributive: (¬<i>p</i> ∨ <i>p</i>) ∧ (¬<i>p</i> ∨ <i>q</i>)</li>
+  <li>by negation: T  ∧ (¬<i>p</i> ∨ <i>q</i>)</li>
+  <li>by identity: ¬<i>p</i> ∨ <i>q</i></li>
+  <li>The formula is already simplified.</li>
   <li>Proof by Truth Table:</li>
   <li><table style="width:100%">
     <tr>
@@ -484,10 +491,114 @@ Niña Francesca Estolano
     </tr>
   </table>
   <p>∴ Not Tautology</p>
-  </li> 
+  </li>
+  <li>The formula has the same interpretations as an implication therefore ¬<i>p</i> ∨ <i>q</i> ≡ <i>p</i> → <i>q</i>.</li>
   </ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>We learned how to formalize English in Logic.</li>
+<li>Example:</li>
+  <ul>
+  <li>If Joe drives fast he gets a speeding ticket ≡ <i>r</i> → <i>s</i></li>
+  <li>Joe did not get a ticket ≡ ¬<i>s</i></li>
+  <li>Therefore, Joe did not drive fast ≡ ∴ ¬<i>r</i></li>
+  <li>Prove ((<i>r</i> → <i>s</i>) ∧ ¬<i>s</i>) → ¬<i>r</i></li>
+  <li>Proof by Truth Table:</li>
+  <li><table style="width:100%">
+    <tr>
+     <th><i>r</i></th>
+     <th><i>s</i></th>
+     <th><i>r</i> → <i>s</i></th>
+     <th>(<i>r</i> → <i>s</i>) ∧ ¬<i>s</i></th>
+     <th>((<i>r</i> → <i>s</i>) ∧ ¬<i>s</i>) → ¬<i>r</i></th>
+    </tr>
+    <tr>
+     <td>T</td>
+     <td>T</td> 
+     <td>T</td>
+     <td>F</td> 
+     <td>T</td> 
+    </tr>
+    <tr>
+     <td>T</td>
+     <td>F</td> 
+     <td>F</td>
+     <td>F</td>
+     <td>T</td> 
+    </tr>
+    <tr>
+     <td>F</td>
+     <td>T</td> 
+     <td>T</td>
+     <td>F</td>
+     <td>T</td> 
+    </tr>
+    <tr>
+     <td>F</td>
+     <td>F</td> 
+     <td>T</td>
+     <td>T</td>
+     <td>T</td> 
+    </tr>
+  </table>
+  <p>∴ Valid</p>
+  </li>
+  <li>Proof by Logical Equivalences:</li>
+  <li>by implication equivalence: ((¬<i>r</i> ∨ <i>s</i>) ∧ ¬<i>s</i>) → ¬<i>r</i></li>
+  <li>by commutative: (¬<i>s</i> ∧ (¬<i>r</i> ∨ <i>s</i>)) → ¬<i>r</i></li>
+  <li>by distributive: ((¬<i>s</i> ∧ ¬<i>r</i>) ∨ (¬<i>s</i> ∧ <i>s</i>)) → ¬<i>r</i></li>
+  <li>by negation: ((¬<i>s</i> ∧ ¬<i>r</i>) ∨ F) → ¬<i>r</i></li>
+  <li>by identity: (¬<i>s</i> ∧ ¬<i>r</i>) → ¬<i>r</i></li>
+  <li>by implication equivalence: ¬(¬<i>s</i> ∧ ¬<i>r</i>) ∨ ¬<i>r</i></li>
+  <li>by de Morgan's: (¬(¬<i>s</i>) ∨ ¬(¬<i>r</i>)) ∨ ¬<i>r</i></li>
+  <li>by double negation: (<i>s</i> ∨ <i>r</i>) ∨ ¬<i>r</i></li>
+  <li>by associative: <i>s</i> ∨ (<i>r</i> ∨ ¬<i>r</i>)</li>
+  <li>by negation: <i>s</i> ∨ T</li>
+  <li>by domination: T</li>
+  <li>∴ Valid</li>
+  </ul>
+<li>First-Order Logic (or Predicate Logic) was introduced.</li>
+<li>First-Order Logic is more expressive.</li>
+<li>Its building blocks are:</li>
+ <ul>
+  <li>constants: refer to specific objects</li>
+  <li>variables: range over objects</li>
+  <li>predicates: describe properties of objects or relationships between objects</li>
+ </ul>
+<li>Examples:</li>
+ <ul>
+  <li>even(2) ≡ T</li>
+  <li>even(5) ≡ F</li>
+  <li><i>Q</i>(<i>x</i>, <i>y</i>) denotes "x=y+3"</li>
+  <li><i>Q</i>(3,0) ≡ T</li>
+  <li><i>Q</i>(1,2) ≡ F</li>
+ </ul>
+</ul>
+<h1>Week 5</h1>
+<ul type="disc">
+<li>We discussed quantifiers.</li>
+<li>Universal Quantifier (∀): refers to all objects</li>
+<li>Existential Quantifier (∃): refers to some objects</li>
+<li>∀x.<i>P</i>(x) is true if predicate <i>P</i> is true for every object in the universe of discourse, and false otherwise.</li>
+<li>∃x.<i>P</i>(x) is true if there is at least one element in the domain such that <i>P</i>(x) is true.</li>
+<li>We learned about quantified formulas.</li>
+<li>Example:</li>
+ <ul>
+  <li>∃x.(even(x) ∧ gt(x, 100))</li>
+  <li>Assume even(x) means "x is even" and gt(x, y) means "x > y".</li>
+  <li>What is the truth value of this formula if the domain is all true integers? True</li>
+  <li>What about ∀x.(even(x) ∧ gt(x, 100))? False</li>
+ </ul>
+<li>We also learned how to translate English into quantified formulas.</li>
+<li>Examples:</li>
+ <ul>
+  <li>Assume freshman(x) means “x is a freshman” and inCS311(x) means “x is taking CS311”.</li>
+  <li>Someone in CS311 is a freshman ≡ ∃x.(freshman(x) ∧ inCS311(x))</li>
+  <li>No one in CS311 is a freshman ≡ ∀x.(¬freshman(x) ∨ ¬inCS311(x))</li>
+  <li>Everyone taking CS311 are freshmen ≡ ∀x.(inCS311(x) → freshman(x))</li> 
+  <li>Every freshman is taking CS311 ≡ ∀x.(freshman(x) → inCS311(x))</li>
+ </ul>
+</ul>
+
+<h1>Week 8</h1>
+<ul type="disc">
+<li>We did not meet due to holidays.</li>
 </ul>
