@@ -397,8 +397,7 @@ Niña Francesca Estolano
     <th>Name</th>
   </tr>
   <tr>
-    <td><i>p</i> ∧ T ≡ <i>p</i>
-    <i>p</i> ∨ F ≡ <i>p</i></td>
+    <td><i>p</i> ∧ T ≡ <i>p</i><br><i>p</i> ∨ F ≡ <i>p</i></br></td>
     <td>Identity laws</td> 
     
   </tr>
