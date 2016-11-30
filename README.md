@@ -382,8 +382,8 @@ Niña Francesca Estolano
 <li>Example:</li>
   <ul>
     <li>(<i>p</i>∨(<i>q</i>∧<i>r</i>))↔(<i>q</i>→<i>¬r</i>)</li>
-    <li><i>I</i><sub>1</sub>:{<i>p</i>↦T; <i>q</i>↦T; <i>r</i>↦T}</li>
+    <li><i>I</i><sub>1</sub>:{<i>p</i>↦ T; <i>q</i>↦ T; <i>r</i>↦ T}</li>
   </ul>
-<li><i>I</i>⊨<i>Formula</i> evaluates to true under <i>I</i></li>
-<li><i>I</i>⊭<i>Formula</i> evaluates to false under <i>I</i></li>
+<li><i>I</i> ⊨ <i>Formula</i> evaluates to true under <i>I</i></li>
+<li><i>I</i> ⊭ <i>Formula</i> evaluates to false under <i>I</i></li>
 </ul>
