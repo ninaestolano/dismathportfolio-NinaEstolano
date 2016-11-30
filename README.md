@@ -391,81 +391,101 @@ Niña Francesca Estolano
 <ul type="disc">
 <li>We learned how to prove a tautology using a truth table and proof by logical equivalences.</li>
 <li>These are the logical equivalences:</li>
-<table style="width:100%">
+<li><table style="width:100%">
   <tr>
     <th>Equivalence</th>
     <th>Name</th>
   </tr>
   <tr>
-    <td><i>p</i> ∧ T ≡ <i>p</i><br><i>p</i> ∨ F ≡ <i>p</i></br></td>
-    <td>Identity laws</td> 
-    
+    <td><i>p</i> ∧ T ≡ <i>p</i>
+    <br><i>p</i> ∨ F ≡ <i>p</i></br></td>
+    <td>Identity Laws</td>  
   </tr>
   <tr>
-    <td>T</td>
-    <td>T</td>
-    <td>F</td>
-    <td>F</td>
-    <td>T</td>
-    <td>T</td>
-    <td>T</td>
+    <td><i>p</i> ∨ T ≡ T
+    <br><i>p</i> ∧ F ≡ F</br></td>
+    <td>Domination Laws</td>
   </tr>
    <tr>
-    <td>T</td>
-    <td>F</td>
-    <td>T</td>
-    <td>F</td> 
-    <td>T</td>
-    <td>T</td>
-    <td>T</td>
+    <td><i>p</i> ∨ <i>p</i> ≡ <i>p</i>
+    <br><i>p</i> ∧ <i>p</i> ≡ <i>p</i></br></td>
+    <td>Idempotent Laws</td>
   </tr>
    <tr>
-    <td>T</td>
-    <td>F</td>
-    <td>F</td>
-    <td>F</td> 
-    <td>T</td>
-    <td>T</td>
-    <td>T</td>
+   <td>¬(¬<i>p</i>) ≡ <i>p</i></td>
+    <td>Double Negation Law</td>
   </tr>
   <tr>
-    <td>F</td>
-    <td>T</td>
-    <td>T</td>
-    <td>T</td> 
-    <td>T</td>
-    <td>F</td>
-    <td>F</td>
+    <td><i>p</i> ∨ <i>q</i> ≡ <i>q</i> ∨ <i>p</i>
+    <br><i>p</i> ∧ <i>q</i> ≡ <i>q</i> ∧ <i>p</i></br></td>
+    <td>Commutative Laws</td>
   </tr>
   <tr>
-    <td>F</td>
-    <td>T</td>
-    <td>F</td>
-    <td>F</td>
-    <td>F</td>
-    <td>T</td>
-    <td>F</td>
+  <td>(<i>p</i> ∨ <i>q</i>) ∨ <i>r</i>  ≡ <i>p</i> ∨ (<i>q</i> ∨ <i>r</i>)
+  <br>(<i>p</i> ∧ <i>q</i>) ∧ <i>r</i>  ≡ <i>p</i> ∧ (<i>q</i> ∧ <i>r</i>)</td>
+    <td>Associative Laws</td>
   </tr>
    <tr>
-    <td>F</td>
-    <td>F</td>
-    <td>T</td>
-    <td>F</td> 
-    <td>F</td>
-    <td>T</td>
-    <td>F</td>
+    <td><i>p</i> ∨ (<i>q</i> ∧ <i>r</i>)  ≡ (<i>p</i> ∨ <i>q</i>) ∧ (<i>p</i> ∨ <i>r</i>)
+    <br><i>p</i> ∧ (<i>q</i> ∨ <i>r</i>)  ≡ (<i>p</i> ∧ <i>q</i>) ∨ (<i>p</i> ∧ <i>r</i>)</td>
+    <td>Distributive Laws</td>
   </tr>
    <tr>
-    <td>F</td>
-    <td>F</td>
-    <td>F</td>
-    <td>F</td> 
-    <td>F</td>
-    <td>T</td>
-    <td>F</td>
+    <td>¬(<i>p</i> ∧ <i>q</i>) ≡ ¬<i>p</i> ∨ ¬<i>q</i>
+    <br>¬(<i>p</i> ∨ <i>q</i>) ≡ ¬<i>p</i> ∧ ¬<i>q</i></br></td>
+    <td>De Morgan's Laws</td>
+  </tr>
+  <tr>
+    <td><i>p</i> ∨ (<i>p</i> ∧ <i>q</i>) ≡ <i>p</i>
+    <br><i>p</i> ∧ (<i>p</i> ∨ <i>q</i>) ≡ <i>p</i></br></td>
+    <td>Absorption Laws</td>
+  </tr>
+  <tr>
+    <td><i>p</i> ∨ ¬<i>p</i> ≡ T
+    <br><i>p</i> ∧ ¬<i>p</i> ≡ F</br></td>
+    <td>Negation Laws</td>
   </tr>
 </table>
-<li>Example</li>
+</li>
+<li>Example:</li>
+  <ul>
+  <li>(<i>p</i> ∧ <i>q</i>) ∨ ¬<i>p</i></li>
+  <li>Proof by Truth Table:</li>
+  <li><table style="width:100%">
+    <tr>
+     <th><i>p</i></th>
+     <th><i>q</i></th>
+     <th><i>p</i> ∧ <i>q</i></th>
+     <th>(<i>p</i> ∧ <i>q</i>) ∨ ¬<i>p</i></th>
+    </tr>
+    <tr>
+     <td>T</td>
+     <td>T</td> 
+     <td>T</td>
+     <td>T</td> 
+    </tr>
+    <tr>
+     <td>T</td>
+     <td>F</td> 
+     <td>F</td>
+     <td>F</td>
+    </tr>
+    <tr>
+     <td>F</td>
+     <td>T</td> 
+     <td>F</td>
+     <td>T</td>
+    </tr>
+    <tr>
+     <td>F</td>
+     <td>F</td> 
+     <td>F</td>
+     <td>T</td>
+    </tr>
+  </table>
+  <p>∴ Not Tautology</p>
+  </li> 
+  </ul>
 <li></li>
 <li></li>
 <li></li>
