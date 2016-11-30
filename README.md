@@ -372,4 +372,18 @@ Niña Francesca Estolano
     <td>F</td>
   </tr>
 </table>
+<li>We also learned about validity and unsatisfiability of a formula.</li>
+<li>A formula is a tautology if it is "always true".</li>
+<li>A formula is a contradiction/unsatisfiable if it is "always false".</li>
+<li>A formula is contingent if it is "sometimes true, sometimes false".</li>
+<li>A formula is satisfiable if there is at least one interpretation that is true.</li>
+<li>A valid formula is a tautology.</li>
+<li>An interpretation (I) is a mapping of from each propositional variables of a formula to exactly one truth value.</li>
+<li>Example:</li>
+  <ul>
+    <li>(<i>p</i>∨(<i>q</i>∧<i>r</i>))↔(<i>q</i>→<i>¬r</i>)</li>
+    <li><i>I</i><sub>1</sub>:{<i>p</i>↦T; <i>q</i>↦T; <i>r</i>↦T}</li>
+  </ul>
+<li><i>I</i>⊨<i>Formula</i> evaluates to true under <i>I</i></li>
+<li><i>I</i>⊭<i>Formula</i> evaluates to false under <i>I</i></li>
 </ul>
