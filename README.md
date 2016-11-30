@@ -387,3 +387,12 @@ Niña Francesca Estolano
 <li><i>I</i> ⊨ <i>Formula</i> evaluates to true under <i>I</i></li>
 <li><i>I</i> ⊭ <i>Formula</i> evaluates to false under <i>I</i></li>
 </ul>
+<h1>Week 4</h1>
+<ul type="disc">
+<li>We learned how to prove a tautology using a truth table and proof by logical equivalences</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
