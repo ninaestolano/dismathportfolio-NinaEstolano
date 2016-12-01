@@ -787,3 +787,24 @@ Niña Francesca Estolano
 <ul type="disc">
 <li>We did not meet due to holidays.</li>
 </ul>
+<h1>Week 9</h1>
+<ul type="disc">
+<li>We discussed classes of functions.</li>
+<li>We were introduced to algorithms.</li>
+<li>We studied linear search algorithm.</li>
+</ul>
+<h1>Week 10</h1>
+<ul type="disc">
+<li>We continued discussing binary search pseudocode.</li>
+<li>We learned about bubble sort pseudocode.</li>
+<li>We discussed another sorting algorithm called insertion sort.</li>
+<li>We also studied greedy algorithm.</li>
+</ul>
+<h1>Week 11</h1>
+<ul type="disc">
+<li>We discussed the growth of functions.</li>
+</ul>
+<h1>Week 12</h1>
+<ul type="disc">
+<li>We discussed graph theory.</li>
+</ul>
